@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 円 -->
+    <item>
+        <shape
+            android:shape="ring"
+            android:thickness="140dp"
+            android:innerRadius="0dp">
+            <stroke
+                android:width="20dp"
+                android:color="@color/colorStamp" />
+        </shape>
+    </item>
+    <!-- 三 -->
+    <item
+        android:top="-230dp"
+        android:left="70dp"
+        android:right="70dp">
+        <shape
+            android:shape="line">
+            <stroke
+                android:width="20dp"
+                android:color="@color/colorStamp" />
+        </shape>
+    </item>
+    <item
+        android:top="-150dp"
+        android:left="80dp"
+        android:right="80dp">
+        <shape
+            android:shape="line">
+            <stroke
+                android:width="20dp"
+                android:color="@color/colorStamp" />
+        </shape>
+    </item>
+    <item
+        android:top="-70dp"
+        android:left="30dp"
+        android:right="30dp">
+        <shape
+            android:shape="line">
+            <stroke
+                android:width="20dp"
+                android:color="@color/colorStamp" />
+        </shape>
+    </item>
+    <!-- 十 -->
+    <item>
+        <shape
+            android:shape="line">
+            <stroke
+                android:width="20dp"
+                android:color="@color/colorStamp" />
+        </shape>
+    </item>
+    <item
+        android:left="110dp"
+        android:right="110dp">
+        <rotate
+            android:fromDegrees="90">
+            <shape
+                android:shape="line">
+                <stroke
+                    android:width="20dp"
+                    android:color="@color/colorStamp" />
+            </shape>
+        </rotate>
+    </item>
+    <!-- 日 -->
+    <item
+        android:top="140dp"
+        android:left="60dp"
+        android:right="60dp">
+        <shape
+            android:shape="line">
+            <stroke
+                android:width="20dp"
+                android:color="@color/colorStamp" />
+        </shape>
+    </item>
+    <item
+        android:top="180dp"
+        android:left="60dp"
+        android:right="60dp"
+        android:bottom="40dp">
+        <shape
+            android:shape="rectangle">
+            <stroke
+                android:width="20dp"
+                android:color="@color/colorStamp" />
+        </shape>
+    </item>
+
+
+    <!--
+    <item android:top="6dp" android:left="4dp" android:bottom="6dp" android:right="4dp">
+        <shape>
+            <stroke android:width="10dp" android:color="@color/colorLogo" />
+            <corners android:radius="4dp" />
+            <solid android:color="@color/colorLogo"/>
+        </shape>
+    </item>
+    -->
+</layer-list>

@@ -1,0 +1,18 @@
+# Java class files
+*.class
+ 
+# Local configuration file
+local.properties
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Android Studio files
+build/
+.gradle/
+ 
+# Mac OS .DS_Store file
+.DS_Store
